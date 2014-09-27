@@ -1,0 +1,162 @@
+/* ------------- Tags -------------- */
+body    
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: .85em;
+    height: 100%;
+    background: #CCC;
+    position: relative;
+}
+
+/* ------------- Divs -------------- */
+#page-wrap
+{
+    width: 1250px;
+    width: calc(100% - 120px);
+    margin: -20px auto 0px;
+    height: 100%;
+    position: relative;
+    min-height: 757px;
+    background: white;
+    text-align: left;
+    padding: 20px 0 40px;
+    border-left: 1px solid #AAA;
+    border-right: 1px solid #AAA;
+}
+
+#page-wrap h3 {
+	margin: 20px 15px;
+}
+
+/* ------------- Classes -------------- */
+.left   
+{
+    float: left;
+}
+.right  
+{
+    float: right;
+}
+.clear  
+{
+    clear: both;
+}
+.dash h1
+{
+      
+}
+.barObj, .dataTable
+{
+    position: relative;
+    padding: 3px 10px;
+    margin-bottom: 20px;
+    background-color: #f7fcff;
+    width: 370px; 
+    height: 75px; 
+    border: 1px solid black;
+}
+.dataTable 
+{
+    width: 400px;
+}
+.pos 
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.inline
+{
+    display: inline-block;
+    margin: 0;
+}
+.vertAlign 
+{
+    margin: auto auto;
+}
+.parentData
+{
+    padding: 0 15px;
+}
+.pointer 
+{
+    cursor: pointer;
+}
+.cellPad 
+{
+    padding: 3px 15px;
+    text-align: center;
+}
+.dataTbl {
+	margin: -10px 0 10px 25px;
+	padding: 3px 10px;
+}
+
+span.left 
+{
+    text-align: left;
+    font-size: .80em;
+}
+span.right 
+{
+    text-align: right;
+    font-size: .80em;
+}
+.tdWhite 
+{
+    background-color: #FFF;
+}
+.barHolder 
+{
+    border: 1px solid black;
+    height: 30px;
+}
+.container thead td 
+{
+    font-weight: bold;
+}
+#dtlData
+{
+    background: black;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+#dtlData td, #dtlData th
+{
+    background: white;
+    font-size: .90em;
+    padding: 2px 5px;    
+}
+#dtlData thead td, #dtlData thead th
+{
+    font-weight: bold;
+    text-align: center;
+}
+#crumbs 
+{
+    font-weight: bold;
+}
+td#space 
+{
+    width: 30px;
+}
+#dataTable table
+{
+    background-color: black;
+    margin-bottom: 5px; 
+}
+#dataTable td
+{
+    background-color: White;
+    padding: 5px 10px;
+}
+.devColor, #dataTable td.devColor, #dtlData td.devColor {
+	background: url("../Images/barOverlay1.png") top left repeat-x #FF0011;
+}
+.prodColor, #dataTable td.prodColor, #dtlData td.prodColor
+{
+    background: url("../Images/barOverlay1.png") top left repeat-x #46FF40;
+}
